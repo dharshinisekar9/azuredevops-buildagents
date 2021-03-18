@@ -17,7 +17,8 @@ parameters:
 
 trigger: none
 
-pool: ${{ parameters.agent_pool }}
+pool: 
+  vmimage: ubuntu-latest
 
 variables:
   - group: ${{ parameters.variable_group }}
