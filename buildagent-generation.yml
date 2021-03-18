@@ -13,7 +13,8 @@ parameters:
 - name: agent_pool
   displayName: Agent Pool
   type: string
-  default: CI Windows2019
+  default: Self-hosted Agent Poll
+
 
 trigger: none
 
