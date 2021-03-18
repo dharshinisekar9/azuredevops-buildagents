@@ -15,7 +15,6 @@ parameters:
   type: string
   default: Self-hosted Agent Poll
 
-
 trigger: none
 
 pool: ${{ parameters.agent_pool }}
