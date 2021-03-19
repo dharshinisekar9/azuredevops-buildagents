@@ -13,12 +13,14 @@ parameters:
 - name: agent_pool
   displayName: Agent Pool
   type: string
-  default: Test Pool
+  default: Agent Pool Pipeline
+
 
 trigger: none
 
 pool: 
-  name: Test Pool
+  name: Agent Pool Pipeline
+
 
 variables:
   - group: ${{ parameters.variable_group }}
