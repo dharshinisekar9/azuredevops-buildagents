@@ -13,13 +13,13 @@ parameters:
 - name: agent_pool
   displayName: Agent Pool
   type: string
-  default: Agent Pool Pipeline
+  default: Test Pool 
 
 
 trigger: none
 
 pool: 
-  name: Agent Pool Pipeline
+  name: Test Pool 
 
 
 variables:
