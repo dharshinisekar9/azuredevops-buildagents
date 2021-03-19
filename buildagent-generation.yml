@@ -13,12 +13,12 @@ parameters:
 - name: agent_pool
   displayName: Agent Pool
   type: string
-  default: Self-hosted Agent Poll
+  default: Test Pool
 
 trigger: none
 
 pool: 
-  name: Self-hosted Agent Poll
+  name: Test Pool
 
 variables:
   - group: ${{ parameters.variable_group }}
